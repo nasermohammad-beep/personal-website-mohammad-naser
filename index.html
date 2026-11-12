@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammad Naser | Consultant | Trainer | Mentor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand-logo">
+        Mohammad <span>Naser</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#advantage" class="nav-link">Advantage</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#insights" class="nav-link">Insights</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Work With Me</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-bg-accent"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="eyebrow-badge">
+            <span class="pulse-dot"></span>
+            Consultant &nbsp;|&nbsp; Trainer &nbsp;|&nbsp; Mentor
+          </div>
+          <h1>
+            Practical solutions. <br />
+            <span class="text-accent">Accelerated growth.</span>
+          </h1>
+          <p class="hero-lead">
+            Empowering organizations to improve performance and professionals to develop deeply practical skills through strategic consulting, focused training programs, and career mentoring.
+          </p>
+          <div class="hero-cta-group">
+            <a href="https://forms.gle/aishArG9BronkoeQ6" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Book a Consultation <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="#services" class="btn btn-outline">
+              Explore Expertise
+            </a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <strong data-target="3">0</strong><span>Core Pillars</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <strong data-target="100" data-suffix="%">0%</strong><span>Practical Focus</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <strong data-target="21" data-suffix="+">0+</strong><span>Specialized Areas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image-frame">
+            <img
+              src="https://files.cdn-files-a.com/uploads/12291377/800_6a6b90d4cedc3.png?format=avif"
+              alt="Mohammad Naser"
+              loading="eager"
+            />
+            <div class="floating-card card-top">
+              <i class="fa-solid fa-chart-line"></i>
+              <div>
+                <strong>Strategic Transformation</strong>
+                <span>Measurable ROI &amp; Growth</span>
+              </div>
+            </div>
+            <div class="floating-card card-bottom">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>ISO &amp; Global Standards</strong>
+                <span>Operational Excellence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-light">
+      <div class="container about-grid">
+        <div class="about-image-col reveal">
+          <div class="about-image-wrapper">
+            <img
+              src="https://files.cdn-files-a.com/uploads/12291377/800_gi-6a6c46b352102.jpg?format=avif"
+              alt="Mohammad Naser Consulting"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="about-text-col reveal">
+          <p class="section-eyebrow">About Me</p>
+          <h2 class="section-title">Mohammad Naser</h2>
+          <p class="body-text">
+            With extensive experience across diverse industries, I partner with organizations globally to solve complex business challenges, optimize operations, and create clear pathways for sustainable business transformation and long-term growth.
+          </p>
+          <p class="body-text">
+            As a senior consultant, I specialize in business transformation and organizational improvement. Beyond advisory work, my mission is deeply rooted in building organizational capabilities and empowering people. I design and deliver high-impact corporate training programs and mentor ambitious professionals seeking career growth, leadership development, and professional excellence.
+          </p>
+          <blockquote class="philosophy-callout">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              My approach is never theoretical. Every consulting engagement, training program, and mentoring experience is grounded in real-world application, guided by measurable objectives, and focused on delivering sustainable impact.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header-flex reveal">
+          <div>
+            <p class="section-eyebrow">Services</p>
+            <h2 class="section-title">Comprehensive expertise <br />for complex challenges.</h2>
+          </div>
+
+          <!-- Interactive Pillar Filter -->
+          <div class="filter-pills" role="tablist" aria-label="Filter services">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Pillars</button>
+            <button class="filter-btn" data-filter="consulting" role="tab" aria-selected="false">Consulting</button>
+            <button class="filter-btn" data-filter="training" role="tab" aria-selected="false">Training</button>
+            <button class="filter-btn" data-filter="mentoring" role="tab" aria-selected="false">Mentoring</button>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <!-- Consulting Card -->
+          <article class="service-card reveal" data-category="consulting">
+            <div class="card-icon">
+              <i class="fa-solid fa-chess-knight"></i>
+            </div>
+            <h3>Consulting</h3>
+            <p class="card-desc">
+              Solving critical challenges and restructuring operations to establish a robust framework that drives sustainable performance and scalable business growth.
+            </p>
+            <ul class="service-list">
+              <li><i class="fa-solid fa-check"></i> Business Strategy</li>
+              <li><i class="fa-solid fa-check"></i> Organizational Development</li>
+              <li><i class="fa-solid fa-check"></i> Process Improvement</li>
+              <li><i class="fa-solid fa-check"></i> Business Analysis</li>
+              <li><i class="fa-solid fa-check"></i> Project Management</li>
+              <li><i class="fa-solid fa-check"></i> ISO Management Systems</li>
+              <li><i class="fa-solid fa-check"></i> Digital Transformation</li>
+            </ul>
+            <a href="#contact" class="card-link" data-preselect="Consulting">
+              Inquire About Consulting <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Training Card -->
+          <article class="service-card reveal" data-category="training">
+            <div class="card-icon">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <h3>Training</h3>
+            <p class="card-desc">
+              Delivering customized, high-impact learning programs designed to build practical capabilities, close critical skill gaps, and elevate overall team performance.
+            </p>
+            <ul class="service-list">
+              <li><i class="fa-solid fa-check"></i> Leadership Development</li>
+              <li><i class="fa-solid fa-check"></i> Project Management</li>
+              <li><i class="fa-solid fa-check"></i> Business Analysis</li>
+              <li><i class="fa-solid fa-check"></i> Data Analytics</li>
+              <li><i class="fa-solid fa-check"></i> AI for Business</li>
+              <li><i class="fa-solid fa-check"></i> Quality Management</li>
+              <li><i class="fa-solid fa-check"></i> Customized Corporate Training</li>
+            </ul>
+            <a href="#contact" class="card-link" data-preselect="Training">
+              Request Corporate Training <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Mentoring Card -->
+          <article class="service-card reveal" data-category="mentoring">
+            <div class="card-icon">
+              <i class="fa-solid fa-compass"></i>
+            </div>
+            <h3>Mentoring</h3>
+            <p class="card-desc">
+              Providing highly personalized, professional guidance designed to accelerate career trajectories, build critical skills, and unlock your true leadership potential.
+            </p>
+            <ul class="service-list">
+              <li><i class="fa-solid fa-check"></i> Career Development</li>
+              <li><i class="fa-solid fa-check"></i> Professional Growth</li>
+              <li><i class="fa-solid fa-check"></i> Certification Guidance</li>
+              <li><i class="fa-solid fa-check"></i> Interview Preparation</li>
+              <li><i class="fa-solid fa-check"></i> Leadership Coaching</li>
+              <li><i class="fa-solid fa-check"></i> CV Preparation</li>
+              <li><i class="fa-solid fa-check"></i> LinkedIn Optimization</li>
+            </ul>
+            <a href="#contact" class="card-link" data-preselect="Mentoring">
+              Start Career Mentoring <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Advantage Section -->
+    <section id="advantage" class="section section-dark">
+      <div class="container">
+        <div class="advantage-layout">
+          <div class="advantage-intro reveal">
+            <p class="section-eyebrow">The Advantage</p>
+            <h2 class="section-title">Why partner with me?</h2>
+            <p>
+              I bring a unique combination of strategic vision and hands-on operational capability to every engagement, ensuring solutions that are both innovative and immediately actionable.
+            </p>
+          </div>
+
+          <div class="advantage-grid">
+            <div class="advantage-item reveal">
+              <div class="adv-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <div>
+                <h3>Real-World Expertise</h3>
+                <p>Delivering practical solutions shaped by hands-on consulting experience, operational improvement initiatives, and exposure to complex business challenges across diverse industries.</p>
+              </div>
+            </div>
+
+            <div class="advantage-item reveal">
+              <div class="adv-icon"><i class="fa-solid fa-layer-group"></i></div>
+              <div>
+                <h3>Cross-Industry Insights</h3>
+                <p>Combining cross-industry knowledge and proven best practices to develop adaptable strategies that address organizational needs and create meaningful impact.</p>
+              </div>
+            </div>
+
+            <div class="advantage-item reveal">
+              <div class="adv-icon"><i class="fa-solid fa-bullseye"></i></div>
+              <div>
+                <h3>Measurable Outcomes</h3>
+                <p>Applying a structured, results-driven approach to transform strategic objectives into practical actions, measurable improvements, and sustainable business value.</p>
+              </div>
+            </div>
+
+            <div class="advantage-item reveal">
+              <div class="adv-icon"><i class="fa-solid fa-globe"></i></div>
+              <div>
+                <h3>Global Standard Methodologies</h3>
+                <p>Implementing internationally recognized methodologies, management frameworks, and quality standards to deliver structured, reliable, and effective solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Engagements / Experience Section -->
+    <section id="experience" class="section section-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Selected Engagements</p>
+          <h2 class="section-title">Tangible impact across industries.</h2>
+        </div>
+
+        <div class="engagements-stack">
+          <!-- Engagement 01 -->
+          <div class="engagement-card reveal">
+            <div class="engagement-num">01</div>
+            <div class="engagement-body">
+              <div class="engagement-tag">
+                <i class="fa-solid fa-diagram-project"></i> Consulting Engagements
+              </div>
+              <h3>Business Transformation and Process Improvement</h3>
+
+              <div class="engagement-columns">
+                <div class="eng-block">
+                  <h4>The Challenge</h4>
+                  <p>Organizations often struggle with entrenched operational inefficiencies, fragmented processes, and a lack of clear strategic direction that severely limit performance metrics and scalable growth.</p>
+                </div>
+                <div class="eng-block">
+                  <h4>The Approach</h4>
+                  <p>Executed comprehensive business diagnostics to pinpoint bottlenecks, redesign core workflows, align cross-functional teams, and establish practical transformation roadmaps tailored to organizational goals.</p>
+                </div>
+              </div>
+            </div>
+            <div class="engagement-impact">
+              <h4><i class="fa-solid fa-chart-simple"></i> The Impact</h4>
+              <p>Delivered measurable improvements in operational visibility, significantly reduced cycle times, strengthened core processes, and established a resilient foundation for continuous performance improvement.</p>
+            </div>
+          </div>
+
+          <!-- Engagement 02 -->
+          <div class="engagement-card reveal">
+            <div class="engagement-num">02</div>
+            <div class="engagement-body">
+              <div class="engagement-tag">
+                <i class="fa-solid fa-shield-halved"></i> Consulting Engagements
+              </div>
+              <h3>Management Systems and Organizational Improvement</h3>
+
+              <div class="engagement-columns">
+                <div class="eng-block">
+                  <h4>The Challenge</h4>
+                  <p>Rapidly growing organizations frequently face compliance risks and operational inconsistencies due to unstructured management systems and poorly documented standard operating procedures.</p>
+                </div>
+                <div class="eng-block">
+                  <h4>The Approach</h4>
+                  <p>Directed the end-to-end development of standardized management systems by conducting rigorous gap assessments, crafting robust policy frameworks, and providing hands-on implementation support.</p>
+                </div>
+              </div>
+            </div>
+            <div class="engagement-impact">
+              <h4><i class="fa-solid fa-chart-simple"></i> The Impact</h4>
+              <p>Cultivated enhanced organizational maturity, achieved strict compliance with international standards, improved daily process consistency, and embedded a strong culture of continuous operational improvement.</p>
+            </div>
+          </div>
+
+          <!-- Engagement 03 -->
+          <div class="engagement-card reveal">
+            <div class="engagement-num">03</div>
+            <div class="engagement-body">
+              <div class="engagement-tag">
+                <i class="fa-solid fa-graduation-cap"></i> Corporate Training &amp; Advisory
+              </div>
+              <h3>Capability Building and Applied AI Adoption</h3>
+
+              <div class="engagement-columns">
+                <div class="eng-block">
+                  <h4>The Challenge</h4>
+                  <p>Teams often struggle to translate modern analytical tools, AI workflows, and project frameworks into day-to-day operational productivity.</p>
+                </div>
+                <div class="eng-block">
+                  <h4>The Approach</h4>
+                  <p>Designed practice-led workshops combining real organizational datasets, structured governance templates, and hands-on capstone simulations.</p>
+                </div>
+              </div>
+            </div>
+            <div class="engagement-impact">
+              <h4><i class="fa-solid fa-chart-simple"></i> The Impact</h4>
+              <p>Accelerated team readiness, standardized reporting and decision workflows, and enabled immediate application of practical tools across departments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insights / Interactive Articles Section -->
+    <section id="insights" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Insights</p>
+          <h2 class="section-title">Perspectives on strategy, systems, and growth.</h2>
+        </div>
+
+        <div class="insights-grid">
+          <article class="insight-card reveal">
+            <span class="insight-category">Operations &amp; Strategy</span>
+            <h3>Why Process Clarity Always Precedes Digital Transformation</h3>
+            <p>Automating an inefficient workflow only accelerates bottlenecks. Here is how to diagnose and streamline core processes before investing in new platforms.</p>
+            <button class="read-insight-btn" data-insight="0">
+              Read Key Takeaways <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </article>
+
+          <article class="insight-card reveal">
+            <span class="insight-category">Quality &amp; ISO</span>
+            <h3>Turning ISO Standards into Living Operational Assets</h3>
+            <p>Management systems should empower teams rather than bury them in paperwork. Practical steps to align international standards with daily execution.</p>
+            <button class="read-insight-btn" data-insight="1">
+              Read Key Takeaways <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </article>
+
+          <article class="insight-card reveal">
+            <span class="insight-category">Career &amp; Leadership</span>
+            <h3>Bridging the Gap Between Technical Expertise and Leadership</h3>
+            <p>Transitioning from specialist to strategic leader requires shifting from solving every problem yourself to designing systems where teams thrive.</p>
+            <button class="read-insight-btn" data-insight="2">
+              Read Key Takeaways <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Work With Me Section -->
+    <section id="contact" class="section section-light">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-eyebrow">Work With Me</p>
+          <h2 class="section-title">Ready to accelerate growth or build new capabilities?</h2>
+          <p class="body-text">
+            Whether you are looking to transform business operations, upskill your team through tailored corporate training, or accelerate your career trajectory, let’s start a focused conversation.
+          </p>
+
+          <div class="direct-booking-box">
+            <h3>Prefer Direct Scheduling?</h3>
+            <p>Complete the quick consultation intake form to share your objectives directly.</p>
+            <a href="https://forms.gle/aishArG9BronkoeQ6" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Book a Consultation <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-card reveal">
+          <h3>Send a Direct Inquiry</h3>
+          <form id="inquiryForm" novalidate>
+            <div class="form-group">
+              <label for="fullName">Full Name *</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Work or Personal Email *</label>
+              <input type="email" id="email" name="email" placeholder="you@organization.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="serviceType">Area of Interest *</label>
+              <select id="serviceType" name="serviceType" required>
+                <option value="Consulting">Strategic &amp; Operational Consulting</option>
+                <option value="Training">Corporate Training Program</option>
+                <option value="Mentoring">1-on-1 Career &amp; Leadership Mentoring</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Objectives &amp; Context *</label>
+              <textarea id="message" name="message" rows="4" placeholder="Briefly describe your challenge, team goals, or mentoring focus..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Inquiry <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#top" class="brand-logo footer-logo">Mohammad <span>Naser</span></a>
+        <p class="footer-tagline">Consultant &nbsp;|&nbsp; Trainer &nbsp;|&nbsp; Mentor</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#insights">Insights</a>
+        <a href="https://forms.gle/aishArG9BronkoeQ6" target="_blank" rel="noopener noreferrer">Book Consultation</a>
+      </div>
+      <p class="copyright">&copy; <span id="year"></span> Mohammad Naser. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Insight Reader Modal -->
+  <div class="modal-backdrop" id="insightModal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModal" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <span class="insight-category" id="modalCategory"></span>
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody" class="modal-body-text"></div>
+      <div class="modal-footer">
+        <a href="https://forms.gle/aishArG9BronkoeQ6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          Discuss This Topic
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
